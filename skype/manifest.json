@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Skype Web - Quick Access",
-  "description": "Adds a button in the toolbar for Skype Web. Icon soruce: https://www.flaticon.com/free-icon/skype_16167326",
+  "description": "Adds a button in the toolbar for Skype Web. Icon source: https://www.flaticon.com/free-icon/skype_16167326",
   "homepage_url": "https://github.com/8JO8/Thunderbird-Webbuttons",
   "version": "1.0",
   "author": "8jo8",
