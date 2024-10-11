@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Skype Web - Quick Access",
+  "description": "Adds a button in the toolbar for Skype Web. Icon soruce: https://www.flaticon.com/free-icon/skype_16167326",
+  "homepage_url": "https://github.com/8JO8/Thunderbird-Webbuttons",
+  "version": "1.0",
+  "author": "8jo8",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@8jo8.bb.skype",
+      "strict_min_version": "106.0"
+    }
+  },  
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "https://*.skype.com/*",
+		"https://*.microsoft.com/*"
+    ],
+  "icons": {
+    "32": "icons/skype-32.svg",
+	"512": "icons/skype-512.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
