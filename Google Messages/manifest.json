@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Webbuttons - Google Messages Web",
+  "description": "Adds a button in the toolbar for Google Messages Web. Icon source: https://www.flaticon.com/free-icon/comment_9449200",
+  "homepage_url": "https://github.com/8JO8/Thunderbird-Webbuttons",
+  "version": "1.0",
+  "author": "8jo8",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@8jo8.bb.gMessages",
+      "strict_min_version": "106.0"
+    }
+  },  
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+		"https://messages.google.com/web/*",
+		"https://accounts.google.com/*"
+    ],
+  "icons": {
+    "32": "icons/gMessages-32.svg",
+	"512": "icons/gMessages-512.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
